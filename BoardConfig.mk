@@ -34,6 +34,7 @@ TW_EXCLUDE_SUPERSU := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_HAS_DOWNLOAD_MODE := true
 TW_NO_REBOOT_BOOTLOADER := true
+TARGET_OTA_ASSERT_DEVICE := t03g,n7100,GT-N7100
 BOARD_CUSTOM_BOOTIMG_MK := device/generic/twrpbuilder/seEnforcing.mk
 include $(LOCAL_PATH)/kernel.mk
 include device/generic/twrpbuilder/BoardConfig32.mk

@@ -32,3 +32,7 @@ deploy:
     tags: false
     repo: TwrpBuilder/android_device_samsung_t03g
     branch: master
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/

@@ -1,0 +1,20 @@
+#
+# system.prop for n7100
+#
+
+dalvik.vm.dexopt-data-only=1
+dalvik.vm.dex2oat-Xmx=256m
+rild.libpath=/system/lib/libsecril-shim.so
+rild.libargs=-d /dev/ttyS0
+ro.sf.lcd_density=320
+ro.lcd_min_brightness=20
+ro.ril.telephony.mqanelements=5
+
+# Camera & Media hacks
+media.stagefright.legacyencoder=true
+
+# EGL blobs crash on screen off
+ro.egl.destroy_after_detach=true
+
+# Google Assistant
+ro.opa.eligible_device=true

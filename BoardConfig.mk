@@ -102,8 +102,6 @@ include device/generic/twrpbuilder/BoardConfig32.mk
 TARGET_USERIMAGES_USE_F2FS := true
 # RECOVERY_FSTAB_VERSION := 2
 
-PRODUCT_COPY_FILES += \
-    device/samsung/n7100/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
 # TWRP
 TW_THEME := portrait_mdpi
 RECOVERY_SDCARD_ON_DATA := true

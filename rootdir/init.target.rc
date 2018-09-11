@@ -1,2 +1,0 @@
-on early-init
-	setenforce permissive
